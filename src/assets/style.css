@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+--bg-color: #c6543a;
+--conic-gradient: conic-gradient(#c6543a,
+  #702220,
+  #ee3db1,
+  #d855ef,
+  #471bac,
+  #4d22a7,
+  #0f4899
+  );
+}
+
+@font-face {
+  font-family: 'Bubblegum';
+  src: url('./fonts/BubblegumSans-Regular.ttf') format('truetype');
+}
+
+body {
+  background-image: url('./public/img/wallpaper.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+h1, h2 {
+  font-family: 'Bubblegum', sans-serif;
+}
