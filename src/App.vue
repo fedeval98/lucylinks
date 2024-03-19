@@ -11,7 +11,7 @@
 
   import Redes from "./components/Redes.vue"
   import Header from "./components/Header.vue"
-  import Particles from './assets/particlesjs/src/particles.js'
+  import Particles from 'particlesjs'
 
 </script>
 
