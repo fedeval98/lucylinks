@@ -1,20 +1,20 @@
 <script setup>
 import { links } from '../datos.js'
+function openLinks(url){
+  window.open(url);
+}
 </script>
 
 <template>
   <button
     v-for="link in links"
-    class="flex justify-center items-center bg-gray-300/90 h-16 w-[95%] md:w-[60%] lg:w-[40%] border-[3px] border-black rounded-lg hover:rounded-lg btn z-5 evento"
-    :data-content="link.nombre"
-  >
-    <h3 class="text-center text-2xl font-bold absolute">{{ link.nombre }}</h3>
-  </button>
+    class="flex justify-center items-center bg-gray-300/90 h-16 w-[95%] md:w-[60%] lg:w-[40%] border-[3px] border-black rounded-2xl btn z-5"
+    :data-content="link.nombre" @click="openLinks(link.url)"
+  ></button>
 </template>
 
 <style scoped>
 .btn {
-  border-radius: 1em;
   box-shadow: 0 1em 1em rgba(0, 0, 0, 0.5);
 
   position: relative;
@@ -45,7 +45,7 @@ import { links } from '../datos.js'
   height: 86%;
   border-radius: 0.4em;
 
-  font-size: 2rem;
+  font-size: 2.5rem;
   color: #fff;
   font-weight: 500;
 
@@ -59,7 +59,7 @@ import { links } from '../datos.js'
 }
 
 .btn:hover::before {
-  animation: spin 1.5s infinite linear;
+  animation: spin 2s infinite linear;
 }
 
 .btn:hover::after{
@@ -72,3 +72,5 @@ import { links } from '../datos.js'
   }
 }
 </style>
+
+

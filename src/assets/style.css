@@ -27,6 +27,6 @@ body {
   background-attachment: fixed;
 }
 
-h1, h2 {
+h1, h2, button {
   font-family: 'Bubblegum', sans-serif;
 }
