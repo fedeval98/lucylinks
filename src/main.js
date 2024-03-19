@@ -1,5 +1,6 @@
 import { createApp } from 'vue'
 import App from './App.vue'
+import Particles from 'particlesjs'
 
 import './assets/style.css'
 
