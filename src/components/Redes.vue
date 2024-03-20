@@ -16,16 +16,12 @@ function openLinks(url){
 <style scoped>
 .btn {
   box-shadow: 0 1em 1em rgba(0, 0, 0, 0.5);
-
   position: relative;
-
   display: flex;
   align-items: center;
   justify-content: center;
-
   overflow: hidden;
   cursor: pointer;
-
   transition: transform 0.3s ease;
 }
 
@@ -44,11 +40,9 @@ function openLinks(url){
   width: 96%;
   height: 86%;
   border-radius: 0.4em;
-
   font-size: 2.5rem;
   color: #fff;
   font-weight: 500;
-
   display: flex;
   align-items: center;
   justify-content: center;
