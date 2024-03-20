@@ -4,13 +4,11 @@
 
 :root{
 --bg-color: #c6543a;
---conic-gradient: conic-gradient(#c6543a,
-  #702220,
-  #ee3db1,
-  #d855ef,
-  #471bac,
-  #4d22a7,
-  #0f4899
+--conic-gradient: conic-gradient(#FC6C49,
+  #F84F7A,
+  #F51077,
+  #C90DF8,
+  #5A0DF9
   );
 }
 
