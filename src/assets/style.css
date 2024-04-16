@@ -3,26 +3,18 @@
 @tailwind utilities;
 
 :root{
---bg-color: #c6543a;
---conic-gradient: conic-gradient(#FC6C49,
-  #F84F7A,
-  #F51077,
-  #C90DF8,
-  #5A0DF9
+--bg-color: #3B396A;
+--conic-gradient: conic-gradient(#3B396A,
+  #5E5A8C,
+  #967BA8,
+  #C3A6C4,
+  #F5E5E8
   );
 }
 
 @font-face {
   font-family: 'Bubblegum';
   src: url('./fonts/BubblegumSans-Regular.ttf') format('truetype');
-}
-
-body {
-  background-image: url('./img/nami.webm');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-attachment: fixed;
 }
 
 h1, h2, button {

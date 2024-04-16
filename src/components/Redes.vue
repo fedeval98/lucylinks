@@ -36,7 +36,7 @@ function openLinks(url){
 .btn::after {
   content: attr(data-content);
   position: absolute;
-  background-color:#F84F7A;
+  background-color:#2F3044;
   width: 96%;
   height: 86%;
   border-radius: 0.4em;
