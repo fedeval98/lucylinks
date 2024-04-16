@@ -1,18 +1,18 @@
 export const links =[
   {
     nombre: "Twitch",
-    url: "https://www.twitch.tv/venusitaissleeping"
+    url: "https://www.twitch.tv/lucyuuwu"
   },
   {
     nombre: "Instagram",
-    url: "https://www.instagram.com/venusita.issleeping/"
+    url: "https://www.instagram.com/lucyuuuwu"
   },
   {
     nombre: "Twitter / X",
-    url: "https://twitter.com/Venusitasleepy"
+    url: "https://twitter.com/lucyuuwu"
   },
   {
     nombre: "Discord",
-    url: "https://discord.com/invite/DrXb96XCNK"
+    url: "	https://discord.gg/w9kSh6Nv7u"
   }
 ]
