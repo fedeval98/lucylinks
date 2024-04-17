@@ -6,10 +6,9 @@ function openLinks(url){
 </script>
 
 <template>
-    <button class="flex justify-center items-center bg-gray-300/90 h-16 w-[95%] md:w-[60%] lg:w-[40%] border-[3px] border-black rounded-2xl btn z-5"
+    <button v-for="link in links" class="flex justify-center items-center bg-gray-300/90 h-16 w-[95%] md:w-[60%] lg:w-[40%] border-[3px] border-black rounded-2xl btn z-5"
       :data-content="link.nombre" @click="openLinks(link.url)"
     ></button>
-  
 </template>
 
 <style scoped>
