@@ -5,7 +5,7 @@ export const links =[
   },
   {
     nombre: "Instagram",
-    url: "https://www.instagram.com/lucyuuuwu"
+    url: "https://www.instagram.com/lucyuu.u"
   },
   {
     nombre: "Twitter / X",
